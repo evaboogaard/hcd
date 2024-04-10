@@ -1,0 +1,87 @@
+.progress-bar{
+    animation: adjust-progress-bar linear;
+    animation-timeline: scroll(root);
+    transform-origin: left;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 0.8rem;
+    background-image: linear-gradient(
+        to bottom,
+        white 0 40%,
+        black 0 60%
+    );
+    z-index: 1000;
+}
+
+@keyframes adjust-progress-bar {
+    0% {
+      transform: scaleX(0);
+    }
+  
+    100% {
+      transform: scaleX(1);
+    }
+  }
+
+
+.primary-text{
+    animation: larger 2s ease-out forwards;
+    animation-timeline: view(block);
+    animation-range: cover 30% cover 70%;
+}
+
+@keyframes larger {
+    to {
+        font-size: 1.3rem;
+        text-shadow: 0 0 1px black;
+    }
+}
+
+.vasilis,
+.espen{
+    animation: scale-paragraphs linear forwards;
+    animation-timeline: view();
+    animation-range: cover 10% contain;
+    scale: 0.9;
+}
+
+.espen.first-p{
+    animation: scale-first-p linear forwards;
+    animation-timeline: view();
+    animation-range: cover 10% contain;
+    scale: 0.9;
+    filter: grayscale(1);
+}
+
+@keyframes scale-paragraphs{
+    0% {
+        scale: 0.9;
+    }
+
+    80% {
+        scale: 1.1;
+    }
+
+    100% {
+        scale: 0.9;
+    }
+}
+
+@keyframes scale-first-p{
+    0% {
+        scale: 0.9;
+        filter: grayscale(1);
+    }
+
+    80% {
+        scale: 1.1;
+        filter: grayscale(0);
+    }
+
+    100% {
+        scale: 0.9;
+        filter: grayscale(0);
+    }
+}

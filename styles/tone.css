@@ -1,0 +1,41 @@
+.happy{
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 0 #ffe600;
+}
+
+.sarcastic{
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 600;
+    display: block;
+    padding: 2rem 0;
+    text-shadow: 1px 1px 0 blueviolet;
+
+}
+
+.agreement{
+    position: absolute;
+    width: fit-content;
+    font-size: 3rem;
+
+    &.e{
+    left: -30%;
+    opacity: 0;
+
+        &.show{
+        animation: ltr-ani 2s forwards;
+        }
+    }
+}
+
+@keyframes ltr-ani{
+    0%{
+        opacity: 0;
+        transform: translateX(-20vw);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

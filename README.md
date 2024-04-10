@@ -38,3 +38,50 @@ ook heb ik me laten tippen door vasilis dat hij een podcast aflevering met marie
 
 en nog 1 quoteje van vasilis: 
 > Veel ontwerpers ontwerpen stiekem voor zichzelf.
+
+## concept
+ik wil me graag focussen op podcasts, omdat ik het doodzonde vind dat deze volledig ontoegankelijk zijn. ik wil kijken hoe ik er alsnog een leesbaar ding van kan maken waarin de algemene vibe toch nog behouden wordt. een gesprek IS namelijk niet hetzelfde als een artikel - er praten 2 mensen tegen elkaar en die dynamiek maakt een podcast ook een podcast. ik wil dus dat het makkelijk leesbaar en te begrijpen is, en daarin de dynamiek en toon tussen de hosts behouden.
+
+marie had benoemd dat ze - als ze podcast content kon consumeren - zou kiezen voor de 'omdenken' podcast of voor een podcast over design problemen. ik heb dus gekozen voor de aflevering 'Should we take the hamburger off the menu?' van de podcast Web Materials.
+
+## prototypes
+
+### versie 1
+dit is mijn eerste versie van de visualisatie van de podcast:
+![](assets/img/proces/v1.png)
+
+ze vond de hoofdjes leuk.
+![](assets/img/proces/hoofdjes.png)
+![](assets/img/proces/lachendehoofdjes.png)
+
+ze zei letterlijk: 'hier haak ik al af. blijkbaar is vasilis lang van stof.' ik moet dus een manier vinden om wat meer ruimte in het verhaal te creëren.
+![](assets/img/proces/laptekst.png)
+
+dit stukje vond ze wel nice, maar ze begreep niet meteen dat de gele kleur 'vrolijk' moest betekenen. ook lachen de poppetjes hierna, en vond ze het niet duidelijk wanneer er nou precies gelachen werd.
+![](assets/img/proces/vrolijk.png)
+
+dit vond marie wel een goed voorbeeld van hoe tekst leesbaarder is. ze kon niet goed begrijpen dat dat beginstukje sarcastisch gezegd werd, dus daar moet ik nog iets op bedenken. misschien iets met quotation marks of zoals die spongebob meme DiE zO PrAaT. Of gewoon '[sarcastisch]' zoals in CC gedaan zou worden.
+![](assets/img/proces/sarcastisch.png)
+
+
+waar ik me op ga focussen voor volgende week is het volgende:
+- leespunt moet ongeveer in het midden van het scherm en moet aangegeven worden d.m.v. iets visueels. zo weet je waar je 'hoort te zijn' en maken de lachende emojis bijv. meer sense.
+- sarcastische toon aanpassen
+- meer witruimte en rust toevoegen in de grote lappen tekst.
+- meer emoties in de emojis. (neutrale gezichts uitdrukking, misschien wenkbrauwtjes toevoegen ofzo (kan veel emotie overbrengen maar ik wil het liever dmv tekst doen eigenlijk))
+- dit stuk herschrijven (want heel raar als je het leest en niet dit soort spreektaal gewend bent): Do I want the navigation itself to be at the top? (Which I think is a silly idea) Do I want to put it in the footer? (Which I think is an okayish idea) Do I want to make an extra page where I actually spend some time on the navigation, and give it the attention that it needs? That might be the best idea: to make a navigation page. This would create room to add some explanation to what the clickable links actually are and what they lead to.
+
+
+## bronnenlijst
+main source: 
+- https://webmaterials.design/posts/05-should-we-remove-the-hamburger/
+
+other sources:
+- https://stackoverflow.com/questions/5681481/should-ol-ul-be-inside-p-or-outside
+- https://jakearchibald.github.io/svgomg/
+- https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-name=cover&range-start-percentage=0&range-end-name=contain&range-end-percentage=30&view-timeline-axis=block&view-timeline-inset=0&subject-size=smaller&subject-animation=reveal&interactivity=clicktodrag&show-areas=yes&show-fromto=yes&show-labels=yes
+- https://developer.chrome.com/docs/css-ui/scroll-driven-animations
+- https://scroll-driven-animations.style/
+- https://www.w3schools.com/cssref/css_colors.php
+- https://www.w3schools.com/howto/howto_css_text_selection.asp
+- https://css-tricks.com/almanac/selectors/s/selection/
