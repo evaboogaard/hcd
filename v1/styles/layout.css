@@ -1,0 +1,117 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-inline: clamp(2rem, 20vw, 30rem);
+    padding-top: 5rem;
+}
+
+#conversation{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#logo{
+    width: clamp(5rem, 15vw, 10rem);
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    animation: logo-ani 2s ease-in-out forwards;
+    transform: scaleX(0);
+
+    @media (min-width: 800px){
+        left: 3rem;
+        top: 3rem;
+    }
+}
+
+@keyframes logo-ani {
+    0% {
+        transform: scaleX(0);
+    }
+
+    80%{
+        transform: scalex(1);
+        rotate: 1turn;
+
+    }
+
+    90%{
+        transform: scalex(1.3);
+        rotate: 1turn;
+
+    }
+
+    100% {
+        transform: scalex(1);
+        rotate: 1turn;
+
+    }
+}
+
+.vasilis,
+.espen{
+    width: clamp(20rem, 80%, 60%);
+    position: relative;
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+.vasilis{
+    --vasilis-color-light: aliceblue;
+    --vasilis-color-base: dodgerblue;
+    font-family: "Nara Sans 19", helvetica, arial, sans-serif;
+    align-self: end;
+    background-color: var(--vasilis-color-light);
+    border-radius: .5rem .5rem 0 .5rem;
+    box-shadow: .5rem .5rem 0 var(--vasilis-color-base);
+}
+
+.espen{
+    --espen-color-light: antiquewhite;
+    --espen-color-base: darkorange;
+   font-family: helvetica;
+   background-color: var(--espen-color-light);
+   border-radius: .5rem .5rem .5rem 0;
+   box-shadow: -.5rem .5rem 0 var(--espen-color-base);
+
+   p::selection,
+   span::selection,
+   li::selection,
+   &::selection{
+        background: darkorange;
+        color: white;
+   }
+}
+
+.spreektaal{
+    filter: grayscale(1);
+}
+
+ul{
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+h2,
+h3{
+    width: 68vw;
+    left: 16vw;
+    align-self: center;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.date{
+    font-style: italic;
+}
