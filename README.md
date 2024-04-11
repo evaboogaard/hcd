@@ -44,6 +44,9 @@ ik wil me graag focussen op podcasts, omdat ik het doodzonde vind dat deze volle
 
 marie had benoemd dat ze - als ze podcast content kon consumeren - zou kiezen voor de 'omdenken' podcast of voor een podcast over design problemen. ik heb dus gekozen voor de aflevering 'Should we take the hamburger off the menu?' van de podcast Web Materials.
 
+### feedback op concept (eric)
+eric is vooral heel benieuwd naar hoe ik van plan ben om dit te gaan doen. ik moet zeggen dat ik dat zelf ook wel ben.
+
 ## prototypes
 
 ### versie 1
@@ -63,6 +66,7 @@ dit stukje vond ze wel nice, maar ze begreep niet meteen dat de gele kleur 'vrol
 dit vond marie wel een goed voorbeeld van hoe tekst leesbaarder is. ze kon niet goed begrijpen dat dat beginstukje sarcastisch gezegd werd, dus daar moet ik nog iets op bedenken. misschien iets met quotation marks of zoals die spongebob meme DiE zO PrAaT. Of gewoon '[sarcastisch]' zoals in CC gedaan zou worden.
 ![](assets/img/proces/sarcastisch.png)
 
+### feedback
 
 waar ik me op ga focussen voor volgende week is het volgende:
 - leespunt moet ongeveer in het midden van het scherm en moet aangegeven worden d.m.v. iets visueels. zo weet je waar je 'hoort te zijn' en maken de lachende emojis bijv. meer sense.
@@ -70,6 +74,14 @@ waar ik me op ga focussen voor volgende week is het volgende:
 - meer witruimte en rust toevoegen in de grote lappen tekst.
 - meer emoties in de emojis. (neutrale gezichts uitdrukking, misschien wenkbrauwtjes toevoegen ofzo (kan veel emotie overbrengen maar ik wil het liever dmv tekst doen eigenlijk))
 - dit stuk herschrijven (want heel raar als je het leest en niet dit soort spreektaal gewend bent): Do I want the navigation itself to be at the top? (Which I think is a silly idea) Do I want to put it in the footer? (Which I think is an okayish idea) Do I want to make an extra page where I actually spend some time on the navigation, and give it the attention that it needs? That might be the best idea: to make a navigation page. This would create room to add some explanation to what the clickable links actually are and what they lead to.
+
+### gesprek tamara 11 april
+
+tamara zei dat ze een andere, meer verhalende podcast zou kiezen zodat ik ook dingen kon doen met bijv. geluidjes die het verhaal aansterken. ik heb alleen heel bewust de keuze gemaakt om te luisteren naar marie en haar wensen. zij vertelde dat ze graag naar een podcast over design problems of omdenken zou luisteren, als dit mogelijk zou zijn.
+
+ik kan hier dus niet echt wat mee, en ik heb ook de fb van marie zelf nog niet kunnen verwerken.
+
+al met al heb ik wel eens nuttigere feedback gehad.
 
 
 ## bronnenlijst
@@ -85,3 +97,4 @@ other sources:
 - https://www.w3schools.com/cssref/css_colors.php
 - https://www.w3schools.com/howto/howto_css_text_selection.asp
 - https://css-tricks.com/almanac/selectors/s/selection/
+- https://www.msudenver.edu/wp-content/uploads/2021/09/Best-Practices-for-Writing-Closed-Captions.pdf

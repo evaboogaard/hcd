@@ -2,7 +2,7 @@
 #espen{
     position: fixed;
     width: clamp(5rem, 20vw, 15rem);
-    bottom: 10vh;
+    bottom: 2vh;
 
     #laugh-eye,
     #laugh-eye-2,

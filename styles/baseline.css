@@ -7,6 +7,9 @@
 :root {
     --text-color: black;
     --transition-short: .25s ease-out;
+    --font-stack-vasilis: "Nara Sans 19", helvetica, arial, sans-serif;
+    --font-stack-espen: helvetica;
+
 }
 
 body{

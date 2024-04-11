@@ -26,7 +26,7 @@
   }
 
 
-.primary-text{
+/* .primary-text{
     animation: larger 2s ease-out forwards;
     animation-timeline: view(block);
     animation-range: cover 30% cover 70%;
@@ -37,27 +37,26 @@
         font-size: 1.3rem;
         text-shadow: 0 0 1px black;
     }
-}
+} */
 
 .vasilis,
 .espen{
     animation: scale-paragraphs linear forwards;
     animation-timeline: view();
-    animation-range: cover 10% contain;
-    scale: 0.9;
+    animation-range: cover 0% cover 80%;
 }
 
 .espen.first-p{
-    animation: scale-first-p linear forwards;
+    /* animation: scale-first-p linear forwards;
     animation-timeline: view();
-    animation-range: cover 10% contain;
-    scale: 0.9;
+    animation-range: cover 10% contain; */
+    scale: 0.5;
     filter: grayscale(1);
 }
 
 @keyframes scale-paragraphs{
     0% {
-        scale: 0.9;
+        scale: 1.1;
     }
 
     80% {
@@ -65,7 +64,7 @@
     }
 
     100% {
-        scale: 0.9;
+        scale: 0.5;
     }
 }
 
