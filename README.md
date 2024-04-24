@@ -1,4 +1,14 @@
 # hcd
+dit is de repo voor het vak human centered design.
+
+## inhoudsopgave
+1. [marie](#marie)
+2. [concept](#concept)
+3. [prototypes](#prototypes)
+4. [schetsen & notities](#schetsen-notities)
+5. [design principles](#design-principles)
+6. [reflectie](#reflectie)
+
 
 ## marie
 de case die ik mag gaan onderzoeken is die van marie. ik heb samen met mijn groepje vragen opgesteld en daar is een leuk en interessant gesprek uitgekomen. dit zijn de notities die ik daarbij heb gemaakt.
@@ -66,7 +76,7 @@ dit stukje vond ze wel nice, maar ze begreep niet meteen dat de gele kleur 'vrol
 dit vond marie wel een goed voorbeeld van hoe tekst leesbaarder is. ze kon niet goed begrijpen dat dat beginstukje sarcastisch gezegd werd, dus daar moet ik nog iets op bedenken. misschien iets met quotation marks of zoals die spongebob meme DiE zO PrAaT. Of gewoon '[sarcastisch]' zoals in CC gedaan zou worden.
 ![](assets/img/proces/sarcastisch.png)
 
-### feedback
+#### feedback
 
 waar ik me op ga focussen voor volgende week is het volgende:
 - leespunt moet ongeveer in het midden van het scherm en moet aangegeven worden d.m.v. iets visueels. zo weet je waar je 'hoort te zijn' en maken de lachende emojis bijv. meer sense.
@@ -75,13 +85,62 @@ waar ik me op ga focussen voor volgende week is het volgende:
 - meer emoties in de emojis. (neutrale gezichts uitdrukking, misschien wenkbrauwtjes toevoegen ofzo (kan veel emotie overbrengen maar ik wil het liever dmv tekst doen eigenlijk))
 - dit stuk herschrijven (want heel raar als je het leest en niet dit soort spreektaal gewend bent): Do I want the navigation itself to be at the top? (Which I think is a silly idea) Do I want to put it in the footer? (Which I think is an okayish idea) Do I want to make an extra page where I actually spend some time on the navigation, and give it the attention that it needs? That might be the best idea: to make a navigation page. This would create room to add some explanation to what the clickable links actually are and what they lead to.
 
-### gesprek tamara 11 april
+#### gesprek tamara 11 april
 
 tamara zei dat ze een andere, meer verhalende podcast zou kiezen zodat ik ook dingen kon doen met bijv. geluidjes die het verhaal aansterken. ik heb alleen heel bewust de keuze gemaakt om te luisteren naar marie en haar wensen. zij vertelde dat ze graag naar een podcast over design problems of omdenken zou luisteren, als dit mogelijk zou zijn.
 
-ik kan hier dus niet echt wat mee, en ik heb ook de fb van marie zelf nog niet kunnen verwerken.
+ik weet dus niet zo goed of ik hier iets mee kan, en ik heb ook de fb van marie zelf nog niet kunnen verwerken.
 
-al met al heb ik wel eens nuttigere feedback gehad.
+#### voortgangsgesprek 12 april (vasilis)
+
+vasilis had nog een leuk idee om toe te voegen, wat eigenlijk wel aansloot op wat tamara gisteren had gezegd. ik kan een soort van geluidjes 'faken' die dan bij het verhaal passen, en die met illustraties oid toevoegen.
+
+
+### versie 2
+![](assets/img/proces/v2.png)
+
+#### feedback
+- veel beter leesbaar dan vorige week
+- de hierarchie in de 'hahaha' kan beter
+- de poppetjes moeten wat meer op de leeslijn zitten
+- secondary text is beetje raar, misschien gewoon weghalen ('waarom is de ene tekst belangrijker dan de andere?')
+- de link lijkt nu bizar belangrijk terwijl dat echt wel mee valt
+
+
+## schetsen-notities
+![](assets/img/proces/notes_1.jpg)
+![](assets/img/proces/notes_2.jpg)
+![](assets/img/proces/notes_3.jpg)
+![](assets/img/proces/notes_4.jpg)
+![](assets/img/proces/notes_5.jpg)
+![](assets/img/proces/notes_6.jpg)
+![](assets/img/proces/notes_7.jpg)
+![](assets/img/proces/notes_8.jpg)
+![](assets/img/proces/notes_9.jpg)
+![](assets/img/proces/notes_10.jpg)
+![](assets/img/proces/notes_11.jpg)
+![](assets/img/proces/notes_12.jpg)
+![](assets/img/proces/notes_13.jpg)
+![](assets/img/proces/notes_14.jpg)
+
+## design-principles
+### study situation
+aan het begin van dit vak hebben we natuurlijk uitvoerig de situatie bestudeerd met marie, door het 'interview' (meer een gesprek) en wat meer research naar de doven community. hier bleef het niet bij, want bij elke testdag kwam ik weer achter nieuwe dingen door hoe marie naar bepaalde dingen in mijn project, maar ook de andere projecten keek. Dit was heel leerzaam, vond ik.
+
+### ignore convention
+ik denk dat ik door mijn keuze voor een podcast al buiten de hokjes probeerde te denken, voor zover ik weet bestaat er namelijk niet zoiets als wat ik probeerde te maken.
+
+### prioritise identity
+ik heb geprobeerd mijn eigen visuele identiteit door te laten schemeren dmv illustraties. ook probeerde ik door middel van font en kleur de identiteit van vasilis en espen door te voeren.
+
+### add nonsense
+ik heb wel wat geinige dingetjes in het project gestopt, zoals de lachende poppetjes en het vogeltje aan het begin. ik had het leuk gevonden om nog meer nonsense toe te voegen, om bijv meer illustraties toe te voegen die fake sounds zouden moeten simuleren.
+
+
+## reflectie
+ik vond dit project ontzettend cool. ik baal ervan dat ik niet meer tijd had om erin te steken, omdat ik denk dat het project veel meer potentie had dan wat ik ervan heb kunnen maken. het lijkt me gaaf om in de toekomst ooit nog eens terug te komen naar een soortgelijk project, maar dan misschien met een meer verhalende podcast met geluidseffecten. daar valt nog wel veel te halen qua uniqueness.
+
+ik denk dat dit vak heel belangrijk is. het is echt een unieke ervaring om te ontwerpen voor 1 persoon, vooral iemand met een beperking. misschien zou het wel tof zijn om studenten zich te laten inschrijven bij een case. ik heb toevallig de case gekregen die mij het meest prikkelde, maar ik ben overall niet echt fan van random indelingen. maar dat is eigenlijk het enige dat ik aan te merken heb.
 
 
 ## bronnenlijst

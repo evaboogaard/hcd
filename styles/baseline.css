@@ -9,17 +9,20 @@
     --transition-short: .25s ease-out;
     --font-stack-vasilis: "Nara Sans 19", helvetica, arial, sans-serif;
     --font-stack-espen: helvetica;
+    --font-size: clamp(1rem, 1.2vw, 2rem);
 
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--text-color);
+    font-size: var(--font-size);
 }
 
 a {
     text-decoration: dotted underline;
     transition: var(--transition-short);
+    font-weight: normal;
 
 
     &:visited{

@@ -2,13 +2,19 @@
 #espen{
     position: fixed;
     width: clamp(5rem, 20vw, 15rem);
-    bottom: 2vh;
+    bottom: 26vh;
 
     #laugh-eye,
     #laugh-eye-2,
     #laugh-mouth{
         opacity: 0;
     }
+
+    #neutral-mouth{
+        display: none;
+        transform: translateY(-145px) translateX(-110px);
+    }
+
 
     &.laugh{
         animation: laugh-ani .2s 10 alternate ease-in-out;
@@ -25,11 +31,30 @@
             animation: opacity-ani-hide 1.6s forwards;
         }
     }
+
+    &.neutral{
+        #neutral-mouth{
+            display: block;
+        }
+
+        #mouth{
+            display: none;
+        }
+    }
 }
 
 #vasilis{
-    right: 0;
+    right: -2vw;
     filter: drop-shadow(1px 3px 0 dodgerblue);
+}
+
+#espen{
+    left: -3vw;
+    filter: drop-shadow(-1px 3px 0 darkorange);
+
+    &.laugh{
+        animation-direction: alternate-reverse;
+    }
 }
 
 @keyframes laugh-ani {
@@ -84,14 +109,5 @@
 
     100%{
         opacity: 1;
-    }
-}
-
-#espen{
-    left: 0;
-    filter: drop-shadow(-1px 3px 0 darkorange);
-
-    &.laugh{
-        animation-direction: alternate-reverse;
     }
 }
