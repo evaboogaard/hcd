@@ -13,8 +13,8 @@ main{
 }
 
 #logo{
-    width: clamp(5rem, 15vw, 10rem);
-    position: absolute;
+    width: clamp(5rem, 15vw, 8rem);
+    position: fixed;
     left: 1rem;
     top: 1rem;
     animation: logo-ani 2s ease-in-out forwards;
@@ -28,26 +28,15 @@ main{
 
 #current-reading-point {
     position: fixed;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
+    height: 10px;
+    width: 71vw;
+    margin-left: 14vw;
+    top: calc(60vh - .25rem);
     left: 0;
     z-index: -1;
-    background-image:
-        radial-gradient(circle at 5% 58%,
-        #e6e6e6 12rem,
-        transparent 12rem),
-        radial-gradient(circle at 95% 58%,
-        #e6e6e6 12rem,
-        transparent 12rem),
-        linear-gradient(
-            to top,
-            white 0 25%,
-            #e6e6e6 35% 40%,
-            rgba(0, 0, 0, 0.3) 40% 41%,
-            #e6e6e6 41% 46%,
-            white 56% 100%
-    );
+    background-color: var(--gray);
+    scale: 0;
+   
     
     svg{
         --size: 3rem;
@@ -106,6 +95,18 @@ main{
     background-color: var(--vasilis-color-light);
     border-radius: .5rem .5rem 0 .5rem;
     box-shadow: .5rem .5rem 0 var(--vasilis-color-base);
+
+    p::selection,
+    span::selection,
+    li::selection,
+    &::selection,
+    i::selection,
+    span::selection,
+    strong::selection,
+    b::selection{
+            background: dodgerblue;
+            color: white;
+    }
 }
 
 .espen{
@@ -119,7 +120,11 @@ main{
    p::selection,
    span::selection,
    li::selection,
-   &::selection{
+   &::selection,
+   span::selection,
+   strong::selection,
+   a::selection,
+   b::selection{
         background: darkorange;
         color: white;
    }
@@ -139,7 +144,15 @@ ul{
 
 h1{
     font-size: 3rem;
-    margin: 2rem 0;
+    margin: 15rem 0;
+    z-index: 100;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem 0;
+    box-shadow:  -10px 0 0 0 var(--gray-darker),
+    10px 0 0 0 var(--gray),
+    0 -10px 0 0 var(--gray-darker),
+    0 10px 0 0 var(--gray);
 }
 
 h2,

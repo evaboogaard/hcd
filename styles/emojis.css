@@ -3,6 +3,15 @@
     position: fixed;
     width: clamp(5rem, 20vw, 15rem);
     bottom: 26vh;
+    transition: var(--transition-base);
+    box-shadow:  -10px 0 0 0 var(--gray),
+                 10px 0 0 0 var(--gray),
+                 0 -10px 0 0 var(--gray),
+                 0 10px 0 0 var(--gray);
+
+    &.show{
+        transform: translateX(0);
+    }
 
     #laugh-eye,
     #laugh-eye-2,
@@ -10,9 +19,27 @@
         opacity: 0;
     }
 
+    #money-eye-r,
+    #money-eye-l{
+        opacity: 0;
+        transform: translateY(-145px) translateX(-110px);
+    }
+
     #neutral-mouth{
         display: none;
         transform: translateY(-145px) translateX(-110px);
+    }
+
+    &.money{
+        #money-eye-r,
+        #money-eye-l{
+            animation: opacity-ani-show 4s forwards;
+        }
+
+        #eye-r,
+        #eye-l{
+            animation: opacity-ani-hide 4s forwards;
+        }
     }
 
 
@@ -43,14 +70,57 @@
     }
 }
 
+.vasilis-img,
+.espen-img{
+    position: fixed;
+    width: 15rem;
+    bottom: 24vh;
+    object-fit: cover;
+    opacity: 0;
+    z-index: -1;
+    box-shadow:  -10px 0 0 0 var(--gray),
+    10px 0 0 0 var(--gray),
+    0 -10px 0 0 var(--gray),
+    0 10px 0 0 var(--gray);
+    transition: var(--transition-base);
+}
+
+.vasilis-img{
+    right: 17vw;
+}
+
+.espen-img{
+    left: 17vw;
+}
+
+body:has(.vasilis-link:hover) #vasilis,
+body:has(.vasilis-link:hover) .vasilis-img{
+    animation: spin-that-emoji-baby 2s infinite linear;
+    opacity: 1;
+}
+
 #vasilis{
     right: -2vw;
     filter: drop-shadow(1px 3px 0 dodgerblue);
+    transform: translateX(20vw);
+}
+
+body:has(.espen-link:hover) #espen,
+body:has(.espen-link:hover) .espen-img{
+    animation: spin-that-emoji-baby 2s infinite linear reverse;
+    opacity: 1;
+}
+
+@keyframes spin-that-emoji-baby{
+    to{
+        rotate: 1turn;
+    }
 }
 
 #espen{
     left: -3vw;
     filter: drop-shadow(-1px 3px 0 darkorange);
+    transform: translateX(-20vw);
 
     &.laugh{
         animation-direction: alternate-reverse;

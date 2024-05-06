@@ -1,4 +1,4 @@
-#birdie{
+/* #birdie{
     position: absolute;
     z-index: 100;
     width: clamp(4rem, 15vw, 13rem);
@@ -93,4 +93,171 @@
         opacity: 1;
     }
 
+} */
+
+#visual-bg{
+    margin-top: 10vh;
+    width: 100vw;
+    position: absolute;
+    
+    .pixel-1{
+        fill: dodgerblue;
+        animation: px1-ani 2s infinite alternate linear;
+        transform-origin: 80% center;
+    }
+
+    .pixel-2{
+        fill: blue;
+        animation: px1-ani 1s infinite alternate-reverse ease-out;
+        transform-origin: center;
+    }
+
+    .pixel-3{
+        fill: darkorange;
+        transform: translateY(3rem) scaleY(.5);
+        transform-origin: center;
+        animation: px3-ani 1s infinite alternate-reverse ease-out;
+
+    }
+
+    .pixel-4{
+        fill: orangered;
+        transform: translateY(5rem) scaleY(.5);
+        transform-origin: center;
+        animation: px4-ani 2s infinite alternate-reverse ease-out;
+    }
+}
+
+@keyframes px1-ani{
+    from{
+        transform: scaleY(0.5);
+    }
+
+    to{
+        transform: scaleY(1);
+    }
+}
+
+@keyframes px3-ani{
+    from{
+        transform: translateY(3rem) scaleY(0.5);
+    }
+
+    to{
+        transform: translateY(3rem) scaleY(0.3);
+    }
+}
+
+@keyframes px4-ani{
+    from{
+        transform: translateY(4rem) scaleY(0.5);
+    }
+
+    to{
+        transform: translateY(4rem) scaleY(0.3);
+    }
+}
+
+#menu{
+    width: 10rem;
+    position: absolute;
+    left: -15rem;
+    top: 5rem;
+    display: none;
+}
+
+#menu path {
+	width:min(90%, 12rem);
+	fill:none;
+	stroke:var(--gray-darker);
+	stroke-width:5;
+}
+
+.tab-button{
+    position: absolute;
+    left: -15rem;
+    padding: 3rem 1.5rem 1rem 2rem;
+    width: 12rem;
+    background-color: var(--gray-darker);
+    color: white;
+    border-radius: .5rem;
+    animation: tab-ani 1s infinite;
+    opacity: 0;
+    transition: var(--transition-base);
+
+    &.tab-show{
+        opacity: 1;
+    }
+}
+
+@keyframes tab-ani{
+    30%{
+        scale: 1;
+        outline: none;
+    }
+
+    50%{
+        scale: 0.9;
+        outline: 2px solid var(--gray);
+        outline-offset: 2px;
+    }
+
+    70%{
+        scale: 1;
+        outline: none;
+    }
+}
+
+#twitter{
+    position: absolute;
+    left: -30%;
+    width: 8rem;
+    top: 30%;
+    scale: 0;
+
+    #cursor{
+        transform: translate(15vw, 25vh);
+    }
+}
+
+#writing,
+#writing-2{
+    position: absolute;
+    left: -50%;
+    width: 15rem;
+    top: 30%;
+    display: none;
+
+    path {
+        width:min(90%, 12rem);
+        fill:none;
+        stroke:black;
+        stroke-width:5;
+        filter: drop-shadow(.2rem .2rem 0 var(--gray));
+    }
+}
+
+#writing-2{
+    top: 45%;
+    left: -42.5%;
+    opacity: 0.7;
+
+    path{
+        filter: drop-shadow(-.1rem -.1rem 0 var(--gray));
+    }
+}
+
+#metrics{
+    position: absolute;
+    right: -50%;
+    width: 15rem;
+    top: 30%;
+    display: none;
+
+    path {
+        width:min(90%, 12rem);
+        fill:none;
+        stroke:var(--gray-darker);
+        stroke-width:5;
+    }
 }

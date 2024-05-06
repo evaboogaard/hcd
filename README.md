@@ -157,3 +157,6 @@ other sources:
 - https://www.w3schools.com/howto/howto_css_text_selection.asp
 - https://css-tricks.com/almanac/selectors/s/selection/
 - https://www.msudenver.edu/wp-content/uploads/2021/09/Best-Practices-for-Writing-Closed-Captions.pdf
+- https://stackoverflow.com/questions/61771309/pixel-art-style-border-on-tumblr-theme
+- https://codepen.io/shooft/pen/KKYbBMa
+- https://gsap.com/docs/v3/Plugins/DrawSVGPlugin

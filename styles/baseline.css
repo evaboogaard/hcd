@@ -6,10 +6,13 @@
 
 :root {
     --text-color: black;
+    --transition-base: .5s ease-out;
     --transition-short: .25s ease-out;
     --font-stack-vasilis: "Nara Sans 19", helvetica, arial, sans-serif;
     --font-stack-espen: helvetica;
     --font-size: clamp(1rem, 1.2vw, 2rem);
+    --gray: rgb(211, 211, 211);
+    --gray-darker: rgb(137, 137, 137);
 
 }
 
